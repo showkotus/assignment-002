@@ -61,7 +61,27 @@ body {
     width: 581px;
     padding-right: 80px;
     padding-top: 35px;
+    animation: 1s ease-out 0s 1 slideInFromRight;
 }
+
+@keyframes slideInFromRight {
+
+    100% {
+        transform: translateX(0);
+    }
+
+    0% {
+        transform: translateX(100%);
+    }
+
+    /* from {
+        right: -200px;
+    }
+
+    to {
+        right: 200px; */
+}
+
 
 /* MAIN SECTION */
 /* MAIN SECTION SIDEBAR */
@@ -448,3 +468,5 @@ footer {
 
 
 }
+
+/* ANIMATION PART */
