@@ -74,12 +74,7 @@ body {
         transform: translateX(100%);
     }
 
-    /* from {
-        right: -200px;
-    }
 
-    to {
-        right: 200px; */
 }
 
 
@@ -203,6 +198,33 @@ footer {
 
 .btn-see-all {
     display: none;
+}
+
+/* FIXURES PART */
+
+.fixtures-container {}
+
+.fixures {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 312px;
+    height: 280px;
+
+}
+
+.fixures p {
+    margin: 0;
+}
+
+.fixure-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
 }
 
 /* MEDIA QUERY */
